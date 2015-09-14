@@ -11,6 +11,7 @@ module MethodsQuiz2
 		return (a + b)
 	end
 	
+<<<<<<< HEAD
 	def max_maybe(a, b)
 		if  (a == b)
 			return 0
@@ -28,6 +29,18 @@ module MethodsQuiz2
 			end
 		end
 	end
+=======
+	#def max_maybe(a, b, c)
+		#if (a == 10 && b == 20)
+			 #return b
+		#else (a / 5 && b / 5)
+			#return false
+		#end
+		#elsif (a == b)
+			#return 0
+		#end
+	#end
+>>>>>>> 2f5b7cde3e085cb88c10f736acc771c9a527c7db
 
 	private
 
