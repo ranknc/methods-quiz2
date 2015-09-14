@@ -81,5 +81,9 @@ module MethodsQuiz2Tests
 			#assert_equal false, @m.squirrels_play?(101, true)
 		#end
 	#end
+=======
+
+	# TODO - write tests here
+>>>>>>> 63f4f5709791e3b9cfbdd558865a21fb0e97d453
 
 end

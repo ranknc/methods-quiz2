@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 module MethodsQuiz2
 	
 	def without_doubles(a, b, c)
@@ -48,4 +49,10 @@ module MethodsQuiz2
 		(a == b)
 
 	end
+=======
+module MethodsQuiz
+	
+	
+
+>>>>>>> 63f4f5709791e3b9cfbdd558865a21fb0e97d453
 end
