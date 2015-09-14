@@ -56,30 +56,30 @@ module MethodsQuiz2Tests
 		end
 	end
 
-	class SquirrelsPlay < QuizTest
-		def test_just_right_temp
-			assert_equal true, @m.squirrels_play?(65, false)
-			assert_equal true, @m.squirrels_play?(65, true)
-		end
-		def test_low_temp
-			assert_equal false, @m.squirrels_play?(55, true)
-			assert_equal false, @m.squirrels_play?(55, false)
-		end
-		def test_limit
-			assert_equal true, @m.squirrels_play?(60, true)
-			assert_equal true, @m.squirrels_play?(60, false)
-			assert_equal false, @m.squirrels_play?(59, true)
-			assert_equal false, @m.squirrels_play?(59, false)
-			assert_equal false, @m.squirrels_play?(91, false)
-		end
-		def test_summer
-			assert_equal true, @m.squirrels_play?(91, true)
-			assert_equal false, @m.squirrels_play?(91, false)
-		end
-		def test_summer_limit
-			assert_equal true, @m.squirrels_play?(100, true)
-			assert_equal false, @m.squirrels_play?(101, true)
-		end
-	end
+	#class SquirrelsPlay < QuizTest
+		#def test_just_right_temp
+			#assert_equal true, @m.squirrels_play?(65, false)
+			#assert_equal true, @m.squirrels_play?(65, true)
+		#end
+		#def test_low_temp
+			#assert_equal false, @m.squirrels_play?(55, true)
+			#assert_equal false, @m.squirrels_play?(55, false)
+		#end
+		#def test_limit
+			#assert_equal true, @m.squirrels_play?(60, true)
+			#assert_equal true, @m.squirrels_play?(60, false)
+			#assert_equal false, @m.squirrels_play?(59, true)
+			#assert_equal false, @m.squirrels_play?(59, false)
+			#assert_equal false, @m.squirrels_play?(91, false)
+		#end
+		#def test_summer
+			#assert_equal true, @m.squirrels_play?(91, true)
+			#assert_equal false, @m.squirrels_play?(91, false)
+		#end
+		#def test_summer_limit
+			#assert_equal true, @m.squirrels_play?(100, true)
+			#assert_equal false, @m.squirrels_play?(101, true)
+		#end
+	#end
 
 end
